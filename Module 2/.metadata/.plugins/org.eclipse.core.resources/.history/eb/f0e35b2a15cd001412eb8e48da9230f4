@@ -1,0 +1,20 @@
+package Exercise3;
+
+public class Vehicle {
+	
+	private boolean vRuns;
+	private int vYear;
+	
+	public Vehicle(int year, String vName, boolean runs, boolean gas, boolean hybrid) {
+		runs = vRuns;
+		year = vYear;
+	}
+	
+	public boolean getRuns() {
+		return(vRuns);
+	}
+	
+	public int getYear() {
+		return(year);
+	}
+}

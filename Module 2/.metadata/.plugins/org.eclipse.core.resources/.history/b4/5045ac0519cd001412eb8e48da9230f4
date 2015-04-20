@@ -1,0 +1,15 @@
+package Exercise3;
+
+public class Minivan extends Vehicle {
+
+	public Minivan(int year, String name, boolean runs, boolean gas, boolean hybrid) {
+		super(2015, "Highlander", true, false, true);
+	}
+
+	public boolean fuelEfficient(boolean fuelEff) {
+		if(getHybrid()) {
+			fuelEff = true;
+		}
+		return(fuelEff);
+	}
+}

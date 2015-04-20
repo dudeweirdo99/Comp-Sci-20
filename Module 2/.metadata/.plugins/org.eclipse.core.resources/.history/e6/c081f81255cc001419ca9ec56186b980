@@ -1,0 +1,13 @@
+package Exercise2;
+
+public class PersonalAcct extends Account {
+
+	public PersonalAcct(double bal, String fName, String lName, String str, String city, String st, String zip) {
+		super(100, "Branden", "Brooks", "Regency Dr.", "Sherwood Park", "Alberta", "T8A5R9");
+		
+		if(bal<100) {
+			bal = bal -2;
+		}
+	}
+
+}

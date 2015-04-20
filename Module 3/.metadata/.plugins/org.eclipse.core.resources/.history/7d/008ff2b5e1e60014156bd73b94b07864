@@ -1,0 +1,38 @@
+package lesson42;
+
+import java.util.*;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+		ArrayList<BankAccount> aryLst = new ArrayList<>();
+		
+		String name;
+		double balance;
+		boolean exit = false;
+		
+		do{
+			System.out.println("Please enter the name to whom the account belongs. (\"Exit\" to abort) ");
+			name = input.nextLine();
+			System.out.println("Please enter the amount of the deposit. ");
+			balance = input.nextDouble();
+			
+			if(name == "Exit") {
+				exit = true;
+			}else{
+				exit = false;
+				BankAccount bnkact = new BankAccount(name, balance);
+				aryLst.add(bnkact);
+			}
+			
+			
+			
+		}while(exit == false);
+		
+		input.close();
+	}
+}

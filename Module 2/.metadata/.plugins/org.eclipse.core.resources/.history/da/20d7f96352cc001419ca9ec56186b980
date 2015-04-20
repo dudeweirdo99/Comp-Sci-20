@@ -1,0 +1,21 @@
+package Exercise1;
+
+import java.util.*;
+
+public class UEmployee {
+	
+	String uniName;
+	double salary;
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static String employeeName(String uniName) {
+		return uniName;
+	}
+	
+	public static double salary(double salary) {
+		return salary;
+	}
+}

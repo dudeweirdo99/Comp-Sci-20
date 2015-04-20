@@ -1,0 +1,9 @@
+package Exercise2;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		BusinessAcct busAcct = new BusinessAcct(600, "Branden", "Brooks", "Regency Dr.", "Sherwood Park", "Alberta", "T8A5R9");
+	}
+
+}

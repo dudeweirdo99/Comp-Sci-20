@@ -1,0 +1,17 @@
+package Exercise3;
+
+import java.util.*;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		
+		String userInterest;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Would you like to know about the Car(c), Truck(t) or the Minivan(m)");
+		userInterest = input.nextLine();
+		
+		input.close();
+	}
+}

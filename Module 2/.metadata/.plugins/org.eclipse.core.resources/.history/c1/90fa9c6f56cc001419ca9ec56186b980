@@ -1,0 +1,17 @@
+package Exercise2;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		PersonalAcct persAcct = new PersonalAcct(0, "Branden", "Brooks", "Regency Dr.", "Sherwood Park", "Alberta", "T8A5R9");
+		BusinessAcct busAcct = new BusinessAcct(0, "Branden", "Brooks", "Regency Dr.", "Sherwood Park", "Alberta", "T8A5R9");
+		
+		persAcct.equals(100);
+		busAcct.equals(500);
+		
+		persAcct.withdrawal(99);
+		busAcct.withdrawal(499);
+		
+		System.out.println(persAcct.getBalance());
+	}
+}

@@ -1,0 +1,26 @@
+package Projects;
+
+import java.util.*;
+
+public class countEmRight {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input a sentance: ");
+		
+		while(exit != true) {
+			
+			String sentance = "";
+			
+			sentance = input.nextLine();
+			sentance = sentance.toUpperCase();
+			
+			System.out.println(sentance);
+			
+		}
+		
+		input.close();
+	}
+}

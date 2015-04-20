@@ -1,0 +1,9 @@
+package Exercise3;
+
+public class Truck extends Vehicle{
+
+	public Truck(int year, String name, boolean runs, boolean gas, boolean hybrid) {
+		super(1997, "Tacoma", true, true, false);
+	}
+
+}

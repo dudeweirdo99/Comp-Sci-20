@@ -1,0 +1,13 @@
+package Exercise2;
+
+public class BusinessAcct extends Account {
+
+	public BusinessAcct(double bal, String fName, String lName, String str, String city, String st, String zip) {
+		super(600, "Branden", "Brooks", "Regency Dr.", "Sherwood Park", "Alberta", "T8A5R9");
+		
+		if(bal<500) {
+			bal = bal - 10;
+		}
+	}
+
+}

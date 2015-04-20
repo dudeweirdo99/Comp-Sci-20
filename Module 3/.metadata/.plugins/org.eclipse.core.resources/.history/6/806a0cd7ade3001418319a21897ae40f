@@ -1,0 +1,39 @@
+package Projects;
+
+import java.util.*;
+
+public class countEmRight {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		boolean exit =  false;
+		
+		System.out.println("Input a sentance: (exit, to stop)");
+		
+		do{
+			
+			String sentance = "";
+			int spLength = 0;
+			
+			sentance = input.nextLine();
+			sentance = sentance + " harmless";
+			sentance = sentance.toUpperCase();
+			
+			String sp[] = sentance.split("SA");
+			
+			spLength = sp.length -1;
+			
+			System.out.println(spLength);
+			
+			if(sentance.equalsIgnoreCase("EXIT")) {
+				exit = true;
+				System.out.println("Exiting...");
+			}
+			
+		}while(exit != false);
+		
+		input.close();
+	}
+}

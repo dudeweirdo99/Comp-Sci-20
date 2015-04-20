@@ -1,0 +1,15 @@
+package Exercise1;
+
+public class UEmployee {
+	
+	String uniName;
+	double salary;
+
+	public static String EmployeeName(String uniName) {
+		return uniName;
+	}
+	
+	public static double Salary(double salary) {
+		return salary;
+	}
+}

@@ -1,0 +1,10 @@
+package Exercise3;
+
+public class Vehicle {
+	
+	private boolean vRuns;
+	
+	public Vehicle(int year, String vName, boolean runs, boolean gas, boolean hybrid) {
+		runs = vRuns;
+	}
+}

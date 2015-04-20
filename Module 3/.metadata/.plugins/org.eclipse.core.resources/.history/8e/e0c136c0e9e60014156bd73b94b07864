@@ -1,0 +1,38 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		
+		Random rand = new Random();
+		final int MAX = 25;
+		
+		int[] odds = new int[MAX];
+		int[] evens = new int[MAX];
+		int randNum = 0;
+		int j = -1;
+		int i = -1;
+		int count;
+		
+		for(count = 0; count < MAX; count++) {
+			randNum = rand.nextInt((25-1)+1)+1;
+			
+			if((randNum % 2) == 1) {
+				j++;
+				evens[j] = randNum;
+			}else if((randNum % 2) == 0) {
+				i++;
+				odds[i] = randNum;
+			}
+		}
+		
+		System.out.println("Evens: ");
+		for(count = 0; count < j; count++)
+			System.out.print(evens[count]+ ", ");
+		
+		System.out.println("Odds: ");
+		for(count = 0; count < i; count++)
+			System.out.print(odds[count]+ ", ");
+	}
+}

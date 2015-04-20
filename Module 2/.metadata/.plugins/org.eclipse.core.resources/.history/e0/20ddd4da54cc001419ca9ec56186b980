@@ -1,0 +1,9 @@
+package Exercise2;
+
+public class PersonalAcct extends Account {
+
+	public PersonalAcct(double bal, String fName, String lName, String str, String city, String st, String zip) {
+		super(100, "Branden", "Brooks", str, city, st, zip);
+	}
+
+}
