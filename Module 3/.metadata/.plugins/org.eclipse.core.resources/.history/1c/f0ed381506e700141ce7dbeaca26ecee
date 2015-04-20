@@ -1,0 +1,20 @@
+package Exercises;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		
+		int index;
+		int genNum;
+		
+		for(int i = 0; i > 102; i++) {
+			
+			index = i;
+			
+			genNum = ((index % 10) + (index - (index%10))) + index;
+			
+			System.out.println(index + genNum);
+		}
+	}
+	
+}

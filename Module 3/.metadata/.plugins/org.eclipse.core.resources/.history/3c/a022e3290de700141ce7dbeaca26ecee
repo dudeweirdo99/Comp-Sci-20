@@ -1,0 +1,28 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		boolean exit = false;
+		int userNum;
+		ArrayList<Integer> oneLst = new ArrayList<>();
+		
+		do{
+			System.out.println("Enter a numer between 1 and 50(999 to quit)");
+			userNum = input.nextInt();
+			
+			if(userNum != 999) {
+				if(userNum>1 && userNum>6) {
+					oneLst.add(userNum);
+				}
+			}
+		}while(exit == false);
+		
+		
+		input.close();
+	}
+}

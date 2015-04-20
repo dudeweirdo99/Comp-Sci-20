@@ -1,0 +1,30 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise3 {
+	
+	public static void main(String[] args) {
+		
+		Random rand = new Random();
+		int randNum;
+		int zero;
+		int one;
+		int two;
+		int three;
+		int four;
+		int five;
+		int six;
+		int seven;
+		int eight;
+		int nine;
+		
+		for(int i = 0; i < 500; i++) {
+			
+			randNum = rand.nextInt(9);
+			
+			if(randNum == 0) {
+				zero++;
+			}
+		}
+	}
+}

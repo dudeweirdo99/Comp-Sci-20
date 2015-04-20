@@ -1,0 +1,24 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise3 {
+	
+	public static void main(String[] args) {
+		
+		int zero[] = new int[500];
+		int one[] = new int[500];
+		int two[] = new int[500];
+		int three[] = new int[500];
+		int four[] = new int[500];
+		int five[] = new int[500];
+		int six[] = new int[500];
+		int seven[] = new int[500];
+		int eight[] = new int[500];
+		int nine[] = new int[500];
+		
+		for(int i = 0; i < 500; i++) {
+			
+			
+		}
+	}
+}

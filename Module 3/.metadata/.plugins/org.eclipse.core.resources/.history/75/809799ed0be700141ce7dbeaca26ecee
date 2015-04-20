@@ -1,0 +1,10 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+	}
+}

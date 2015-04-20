@@ -1,0 +1,19 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		boolean exit = false;
+		int userNum;
+		
+		do{
+			System.out.println("Enter a numer between 1 and 50");
+			userNum = input.nextInt();
+			
+		}while(exit == false);
+	}
+}
