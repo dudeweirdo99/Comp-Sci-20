@@ -1,0 +1,15 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise9 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int constNum = 0;
+		String impSent = null;
+		
+		input.close();
+	}
+}

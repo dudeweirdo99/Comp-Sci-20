@@ -1,0 +1,20 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise9 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int constNum = 0;
+		String impSent = null;
+		char cons[] = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'};
+		
+		System.out.println("Enter Text: ");
+		impSent = input.nextLine();
+		impSent += "A";
+		
+		input.close();
+	}
+}

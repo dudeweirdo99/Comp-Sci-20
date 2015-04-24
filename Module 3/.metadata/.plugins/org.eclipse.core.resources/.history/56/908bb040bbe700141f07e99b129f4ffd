@@ -1,0 +1,20 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise11 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		Random rand = new Random();
+		
+		int myNums[];
+		int storedNums[];
+		
+		
+		
+		
+		input.close();
+	}
+
+}

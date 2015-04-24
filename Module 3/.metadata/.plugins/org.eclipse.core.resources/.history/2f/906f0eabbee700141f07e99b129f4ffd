@@ -1,0 +1,34 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise12 {
+
+	static Scanner input = new Scanner(System.in);
+	
+	static int grades[][] = new int[12][5];
+	int st1, st2, st3, st4, st5;
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void getGrades() {
+		
+		System.out.println("Enter grades for student 1: ");
+		grades[0][0] = input.nextInt();
+		grades[0][1] = input.nextInt();
+		
+	}
+	
+	public static void showGrades() {
+		
+	}
+	
+	public static void studentAvg() {
+		
+	}
+	
+	public static void testAvg() {
+		
+	}
+}

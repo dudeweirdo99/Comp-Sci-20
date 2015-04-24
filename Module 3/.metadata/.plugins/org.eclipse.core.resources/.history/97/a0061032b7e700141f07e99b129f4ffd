@@ -1,0 +1,29 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise9 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int count = 0;
+		String impSent = null;
+		String cons[] = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"};
+		
+		System.out.println("Enter Text: ");
+		impSent = input.nextLine();
+		impSent = impSent.toLowerCase();
+		
+		for(int i = 0; i < cons.length; i++) {
+			
+			if(impSent.substring(i, i+1) == ) {
+				count++;
+			}
+		}
+		
+		System.out.println("This String contains "+count+" consonants.");
+		
+		input.close();
+	}
+}

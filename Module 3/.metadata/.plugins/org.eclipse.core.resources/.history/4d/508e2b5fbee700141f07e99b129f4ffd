@@ -1,0 +1,29 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise12 {
+
+	Scanner input = new Scanner(System.in);
+	
+	int grades[][] = new int[12][5];
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void getGrades() {
+		
+	}
+	
+	public static void showGrades() {
+		
+	}
+	
+	public static void studentAvg() {
+		
+	}
+	
+	public static void testAvg() {
+		
+	}
+}

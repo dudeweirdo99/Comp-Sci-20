@@ -1,0 +1,32 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise9 {
+	
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int count = 0;
+		String impSent = null;
+		String tester = null;
+		
+		System.out.println("Enter Text: ");
+		impSent = input.nextLine();
+		impSent = impSent.toLowerCase();
+		
+		for(int i = 0; i < impSent.length(); i++) {
+			tester = impSent.substring(i, i+1);
+			if(tester == "a" || tester == "e" || tester == "i" || tester == "o" || tester == "u" || tester == "y") {
+				
+			}else{
+				count++
+			}
+			System.out.println(tester);
+		}
+		
+		System.out.println("This String contains "+count+" consonants.");
+		
+		input.close();
+	}
+}

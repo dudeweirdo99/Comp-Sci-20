@@ -1,0 +1,10 @@
+package Exercises;
+import java.util.*;
+
+public class Exercise12 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
